@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+#menu{
+    height: 80px;
+    padding: 0 30px;
+
+
+}
+#logo{
+    font-size: 45px;
+    line-height: 80px;
+    color:	#E56E94;
+    float:left;
+}
+nav{
+
+    float:right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:	#E56E94;
+}
+nav a:hover{
+    border-bottom: 2px solid #E56E94;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:	#E56E94;
+}
+.ikon{
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+}
+#anasayfa{
+    height: 600px;
+    background-image: url("../img/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 20px;
+}
+#hakkimizda{
+ 
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 55px;
+    color:#E56E94;
+  
+
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+
+}
+#sol{
+    float: left;
+    border-right: 3px solid rgb(156, 148, 148);
+    font-size: 18px;
+    color:black;
+    width: 500px;
+}
+#h5sol{
+    line-height: 1.6;
+    font-size: 20px;
+
+}
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+
+}
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    float: left;
+}
+#sag{
+    float: right;
+    width: 650px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 100;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.mt100{
+    margin-top:80px;
+}
+#pson{
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    
+}
+#egitim{
+  padding: 50px;
+  text-align: center;
+  height: 600px;
+
+}
+.card{
+    width: 300px;
+    height: 320px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+
+}
+.card:hover{
+    border: 2px solid gray;
+}
+   
+    
+.baslikcard{
+    font-size: 15px;
+    color: #E56E94;
+    
+}
+#ogretmenler {
+    background-color: #E56E94;
+    padding: 50 px;
+    text-align: center;
+    height: 750px;
+  
+  }
+#ogretmenh2{
+    color: white;
+    padding-top: 50px;
+}
+.sutun-sol-sag{
+    width: 350px;
+    float: left;
+    padding: 35px;
+    margin: 5px 45px;
+    
+   
+}
+.ogretmenisim{
+    font-size: 20px;    
+    color:white;
+    margin-bottom: 12px;
+}
+.ogretmenn{
+    font-size: 17px;
+    margin-top: 30px;
+    color: #ddd;
+}
+.ikonn{
+    font-size: 30px;
+    padding: 5px;
+
+}
+.oval{
+    border-radius: 50%;
+}
+#iletisimh2{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+#iletisim{
+    padding: 50px;
+    
+    background-image: url("../img/iletisim.jpg");
+    background-size: corver;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#iletisimOpak{
+    height: 600px;
+    background:
+    rgba(255, 255, 255 ,0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+    
+}
+.formgrup{
+    width: 700;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+   
+  
+}
+#solform{
+    margin: 0px 20px;
+    padding: 50px;
+    float: left;
+    width: 20px;
+    height: 20px;
+
+}
+#sagform{
+    margin: 0px 100px;
+    padding: 50px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    
+
+}
+.form-control{
+    padding: 5px;
+    margin: 10px;
+}
+#text{
+    width: 402px;
+    height: 200px;
+  
+}
+input[type="submit"]{
+    cursor:pointer;
+    background-color: #445e6e;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#adres{
+    float: right;
+    width: 250;
+    height: 400px;
+    color: black;
+    padding: 30px;
+    text-align: left;
+  
+     
+}
+.adresp{
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    font-weight: bold;  
+    
+}
+#copyright{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
