@@ -1,5 +1,7 @@
 # Eduget
 <p>Education site was designed using html, css and php.</p>
+</br>
+<p>By installing xampp, a database connection has been established using phpMyAdmin.</p>
 
 ![Screenshot_1](https://user-images.githubusercontent.com/46827580/154665340-bea1a2fc-93fa-4766-8c0c-b80dd91db715.png)
 
